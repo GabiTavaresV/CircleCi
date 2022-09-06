@@ -9,7 +9,7 @@ it('Should to validade stok the one unit', ()=> {
 
 })
 
-it('Should acept sell more one unit', ()=> {
+it('Should agree to sell more than one unit', ()=> {
     let produto = new Product('Celular', 500.00, 900.00, 10)
     sell(produto, 3)
     expect(produto.stock).toBe(7)
